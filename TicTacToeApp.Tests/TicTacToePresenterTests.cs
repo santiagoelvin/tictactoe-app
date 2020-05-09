@@ -50,7 +50,7 @@ namespace TicTacToeApp.Tests
 
         
         [TestMethod]
-        public void Start_Should_AskPlayerXForNextMove_When_GameHasNotYetEnded()
+        public void Start_Should_AskPlayerOForNextMove_When_GameHasNotYetEnded()
         {
             int inputCount = 0;
             var fakeGame = Mock.Of<IGame>();
